@@ -1,0 +1,7 @@
+parameters:
+#    skins.example.class: SCW\SkinsBundle\Example
+
+services:
+#    skins.example:
+#        class: %skins.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
