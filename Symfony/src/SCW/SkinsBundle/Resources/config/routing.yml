@@ -1,3 +1,0 @@
-SkinsBundle_homepage:
-    pattern:  /skins/list
-    defaults: { _controller: SkinsBundle:Default:index }
