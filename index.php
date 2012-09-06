@@ -10,7 +10,9 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 // definitions
 $app->get('/', function() {
-    return 'Hello!';
+	/* @var $twig Silex\Provider\TwigCoreExtension */
+	$twig = $app['twig'];
+	return $twig->render('main.twig', array());
 });
 
 $app['debug'] = true;
