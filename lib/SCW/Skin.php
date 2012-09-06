@@ -1,7 +1,7 @@
 <?php
 namespace SCW;
 
-class Skin implements Util\Exposable{
+class Skin {
 	private $thumbSrc;
 	private $title;
 	private $downloadUrl;

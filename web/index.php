@@ -6,10 +6,8 @@ $app = new Silex\Application();
 
 $app['debug'] = true;
 
-$app['autoloader']->registerNamespace('SCW', __DIR__.'/lib');
-
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/views',
+    'twig.path' => __DIR__.'/../views',
 ));
 
 // definitions
@@ -21,7 +19,7 @@ $app->get('/', function() use ($app) {
 	$skins = $loader->load();
 	
 	return $twig->render('main.twig', array(
-		'skin' => $skins
+		'skins' => $skins
 	));
 });
 
