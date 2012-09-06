@@ -19,7 +19,7 @@ class Skin {
 	}
 	
 	public function getTitle() {
-		$this->title;
+		return $this->title;
 	}
 	
 	public function getDownloadUrl() {
