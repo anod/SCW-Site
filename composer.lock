@@ -1,0 +1,155 @@
+{
+    "hash": "dc41b9c1e560e460b3c824a6904f7c42",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "dev-master",
+            "alias-pretty-version": "2.4.x-dev",
+            "alias-version": "2.4.9999999.9999999-dev"
+        },
+        {
+            "package": "doctrine/common",
+            "version": "dev-master",
+            "source-reference": "329d90ab8d6ed4c0b422d631caa5594c77c12055",
+            "commit-date": "1345128430"
+        },
+        {
+            "package": "doctrine/dbal",
+            "version": "2.1.x-dev",
+            "source-reference": "76799960a54af583e82bedcf246e8c9c18006e94",
+            "commit-date": "1338146238"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "1.1.0"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
+            "commit-date": "1343051648"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "source-reference": "73b18ef69f74d878465dba0836ad96affc6c820c",
+            "commit-date": "1346766167"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "v4.1.8"
+        },
+        {
+            "package": "symfony/browser-kit",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/console",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/css-selector",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/dom-crawler",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/filesystem",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/finder",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/form",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/locale",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/monolog-bridge",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/options-resolver",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/process",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/security",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/serializer",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/twig-bridge",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/validator",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "459720ff3b74ee0c0d159277c6f2f5df89d8a4f6",
+            "commit-date": "1346397138"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
