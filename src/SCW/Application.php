@@ -11,6 +11,9 @@ class Application extends Silex\Application {
 		$this->rootDir = $rootDir;
 	}
 	
+	/**
+	 * @return \SCW\Application
+	 */
 	public function init()  {
 		$this['debug'] = true;
 		
@@ -22,6 +25,7 @@ class Application extends Silex\Application {
 		// definitions
 		$this->get('/', array($router,'home'));
 		
+		return $this;
 	}
 	
 	/**
