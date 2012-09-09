@@ -16,7 +16,7 @@ class Controllers {
 	public function home() {
 		$twig = $this->app->getTwig();
 		
-		$loader = new SCW\Skin\Loader();
+		$loader = new Skin\Loader();
 		$skins = $loader->load();
 		
 		return $twig->render('main.twig', array(

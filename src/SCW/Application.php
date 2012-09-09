@@ -4,17 +4,23 @@ namespace SCW;
 use Silex;
 
 class Application extends Silex\Application {
+	private $rootDir;
+	
+	public function __construct($rootDir) {
+		parent::__construct();
+		$this->rootDir = $rootDir;
+	}
 	
 	public function init()  {
 		$this['debug'] = true;
 		
 		$this->register(new Silex\Provider\TwigServiceProvider(), array(
-			'twig.path' => __DIR__.'/../views',
+			'twig.path' =>$this->rootDir.'/views'
 		));
 		
 		$router = new Controllers($this);
 		// definitions
-		$this->get('/', $router::home);
+		$this->get('/', array($router,'home'));
 		
 	}
 	
