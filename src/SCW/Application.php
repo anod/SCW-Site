@@ -21,9 +21,9 @@ class Application extends Silex\Application {
 			'twig.path' =>$this->rootDir.'/views'
 		));
 		
-		$router = new Controllers($this);
+		$controllers = new Controllers($this);
 		// definitions
-		$this->get('/', array($router,'home'));
+		$this->get('/', array($controllers,'home'));
 		
 		return $this;
 	}
